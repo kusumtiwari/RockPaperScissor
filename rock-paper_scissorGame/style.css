@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    background-color: aliceblue;
+    margin: 1rem .5rem;
+    height: 90vh;
+    
+}
+
+.title{
+    margin : 1rem;
+    font-weight: 500;
+    font-size: clamp(1.2rem, 2vw, 2.3rem);
+    background-color: aliceblue;
+}
+.tables{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh; 
+    width: 60vw;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+li{
+    margin-top: 3rem;
+    cursor: pointer;
+    font-size: 3rem;
+    font-size: clamp(2rem, 2vw, 2.5rem);
+}
+
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+.scores ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: clamp(1rem, 2vw, 2rem);
+    flex-direction: column;
+} 
+p{
+    margin: 1rem;
+    font-size: clamp(1.2rem, 2vw, 2.5rem);
+}
+.scores ul li{
+    font-size: clamp(1.5rem, 1.6vw, 2rem);
+    margin-bottom: 0;
+}
+
+button{
+    border:2px solid gold;
+    cursor: pointer;
+    color: black;
+    font-size: clamp(1.2rem, 1.2vw, 2rem);
+    padding: 0.3em;
+    margin-left: 3em;
+    border-radius: 1.3em;
+    width: 10vw;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+}
+
+.greeting-box{
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 2em;
+    position: fixed;
+    top: 30%;
+    left: 32%;
+    display: none;
+}
+
+.greeting-box h4{
+    background-color: rgb(130, 209, 106);
+    border-radius: 2em;
+    margin: 0.5em;
+    font-size: clamp(1.2rem, 2vw, 2.5rem);
+}
+
+
+
+
